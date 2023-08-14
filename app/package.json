@@ -10,15 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "file-saver": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2"
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+>>>>>>> 69b8c8243e29f06b2953ce98cec8720167bd0b23
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
+<<<<<<< HEAD
     "vite": "^4.4.5",
     "eslint": "^8.45.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -28,5 +34,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.3.3"
+=======
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+>>>>>>> 69b8c8243e29f06b2953ce98cec8720167bd0b23
   }
 }

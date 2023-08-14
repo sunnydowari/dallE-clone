@@ -1,4 +1,5 @@
 module.exports = {
+<<<<<<< HEAD
   env: {
     browser: true,
     es2021: true,
@@ -105,3 +106,24 @@ module.exports = {
     ],
   },
 };
+=======
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react-refresh'],
+  rules: {
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
+  },
+}
+>>>>>>> 69b8c8243e29f06b2953ce98cec8720167bd0b23
