@@ -1,11 +1,13 @@
 import mongoose from 'mongoose';
 
-const Post = new mongoose.Schema({
-  name: { type: String, required: true },
-  prompt: { type: String, required: true },
-  photo: { type: String, required: true },
-});
+const connectDB = (url) => {
+  mongoose.set('strictQuery', true);
+  mongoose.connect(url)
+    .then(() => console.log('connected to mongo'))
+    .catch((err) => {
+      console.error('failed to connect with mongo');
+      console.error(err);
+    });
+};
 
-const PostSchema = mongoose.model('Post', Post);
-
-export default PostSchema;
+export default connectDB;
