@@ -34,7 +34,7 @@ To deploy this project for the api server run:
 ```
 ## Installation
 
-Install my-project with npm
+Install the project with npm
 
 dependencies that have been used are
 
