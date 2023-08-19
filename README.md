@@ -68,8 +68,13 @@ npm start
 
 To run this project, you will need to add the following environment variables to your .env file, the env will in the root of server
 
+
 OPENAI_API_KEY ="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 MONGODB_URL ="xxxxxxxxxxxxxxxxxxxxxxx"
+
 CLOUDINARY_CLOUD_NAME="xxxxxxxx"
+
 CLOUDINARY_API_KEY="xxxxxxxxxxxxxx"
+
 CLOUDINARY_API_SECRET="xxxxxxxxxxxxxxxxxxxx"
